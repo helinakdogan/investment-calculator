@@ -11,6 +11,7 @@ const UserInput = () => {
             <input type="number" id="yearly-contribution" />
           </p>
         </div>
+
         <div className="input-group">
           <p>
             <label htmlFor="expected-return">
@@ -23,6 +24,7 @@ const UserInput = () => {
             <input type="number" id="duration" />
           </p>
         </div>
+
         <p className="actions">
           <button type="reset" className="buttonAlt">
             Reset
@@ -31,6 +33,7 @@ const UserInput = () => {
             Calculate
           </button>
         </p>
+        
       </form>
     );
   };
